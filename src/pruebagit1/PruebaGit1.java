@@ -19,6 +19,7 @@ public class PruebaGit1 {
         System.out.println("Hola Galaxia");
         System.out.println("Hola, mundo de nuevo");
         System.out.println("Otra vez");
+        System.out.println("mensaje nuevo en el usuario 2");
     }
     
 }
