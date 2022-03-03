@@ -14,6 +14,7 @@ public class Coche {
     private int nroRuedas;
 
     public Coche(int nroPuertas, int nroRuedas) {
+        System.out.println("Constructor");
         this.nroPuertas = nroPuertas;
         this.nroRuedas = nroRuedas;
     }
