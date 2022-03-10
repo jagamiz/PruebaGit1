@@ -12,6 +12,7 @@ package pruebagit1;
 public class Coche {
     private int nroPuertas;
     private int nroRuedas;
+    private int nroCilindros;
 
     public Coche(int nroPuertas, int nroRuedas) {
         System.out.println("Constructor");
@@ -33,6 +34,14 @@ public class Coche {
 
     public void setNroRuedas(int nroRuedas) {
         this.nroRuedas = nroRuedas;
+    }
+
+    public int getNroCilindros() {
+        return nroCilindros;
+    }
+
+    public void setNroCilindros(int nroCilindros) {
+        this.nroCilindros = nroCilindros;
     }
     
 }
