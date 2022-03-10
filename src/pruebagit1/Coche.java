@@ -13,6 +13,7 @@ public class Coche {
     private int nroPuertas;
     private int nroRuedas;
     private int nroCilindros;
+    private  String color;
 
     public Coche(int nroPuertas, int nroRuedas) {
         System.out.println("Constructor");
